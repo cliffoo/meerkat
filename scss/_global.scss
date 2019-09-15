@@ -1,0 +1,43 @@
+h1 {
+  font-size: 14rem;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p, li, h5{
+  font-size: 2rem;
+}
+
+.white-background{
+  animation: white-background 0.35s ease-out forwards;
+  @keyframes white-background {
+    0%{
+      background-color: none;
+    }
+    100%{
+      background-color: #fff;
+    }
+  }
+}
+
+.transparent-background{
+  animation: transparent-background 0.35s ease-out forwards;
+  @keyframes transparent-background {
+    0%{
+      background-color: #fff;
+    }
+    100%{
+      background-color: none;
+    }
+  }
+}

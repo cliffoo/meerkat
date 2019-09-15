@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  // Elements' sizes don't change if there's padding
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 10px;
+  font-family: $font-stack;
+  color: $text-color-1;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

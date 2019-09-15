@@ -1,0 +1,31 @@
+#blocks-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28rem 0 10rem 0;
+  .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+      margin-bottom: 2rem;
+    }
+  }
+  .blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 20rem 0 20rem;
+    .block{
+      display: grid;
+      text-align: center;
+      margin-top: 8rem;
+      h4{
+        margin: 3rem 0 3rem 0;
+      }
+      img{
+        justify-self: center;
+        height: 10rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#solution{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20rem;
+  .left{
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 5rem 0 30rem;
+    ul{
+      margin-left: 4rem;
+    }
+    p, li{
+      margin-top: 1.5rem;
+    }
+  }
+  .right{
+    img{
+      height: 50rem;
+      padding-left: 10rem;
+    }
+  }
+}

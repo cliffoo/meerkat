@@ -1,0 +1,22 @@
+#problem{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15rem;
+  .left{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    align-items: center;
+    img{
+      height: 50rem;
+    }
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 30rem 0 5rem;
+    p{
+      margin-top: 1.5rem;
+    }
+  }
+}

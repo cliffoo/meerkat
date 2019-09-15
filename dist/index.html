@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Refresh -->
+  <!-- <meta http-equiv="refresh" content="5"> -->
+  <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="index.css">
+  <title>Meerkat</title>
+</head>
+
+<body>
+
+  <section id="menu">
+    <a href="#">
+      <img src="img/logo.png" alt="Logo">
+      <h3>Meerkat</h3>
+    </a>
+    <a href="#problem">
+      <h4>Problem</h4>
+    </a>
+    <a href="#solution">
+      <h4>Solution</h4>
+    </a>
+    <a href="#blocks-display">
+      <h4>Live Status</h4>
+    </a>
+  </section>
+
+  <section id="showcase">
+    <div class="left">
+      <h3>Welcome To</h3>
+      <h1>Meerkat</h1>
+      <p>A decentralized blockchain application that tracks Cloud Service Providers' uptimes.</p>
+      <h4>Meerkat is powered by:</h4>
+      <div class="logos">
+        <div>
+          <img src="img/ethereum.png" alt="Ethereum logo" id="ethereum-logo">
+          <img src="img/infura.png" alt="Infura logo" id="infura-logo">
+        </div>
+        <img src="img/blockmason.png" alt="Blockmason logo" id="blockmason-logo">
+      </div>
+    </div>
+    <div class="right">
+      <img src="img/landing.png" alt="Meerkats looking at blocks dropping from cloud">
+    </div>
+  </section>
+
+  <section id="problem">
+    <div class="left">
+      <img src="img/Problem.png" alt="Magnifying glass looking into clouds full of suspicious faces">
+    </div>
+    <div class="right">
+      <h2>Problem ?</h2>
+      <p>Consumers depend heavily on reliable cloud services. Cloud services are scalable, convenient (especially for
+        end
+        users), and efficient.</p>
+      <p>However, currently consumers have <span style="font-weight: 700">no way of determining the
+          trustworthiness</span> of Cloud Service Providers, except
+        for fuzzy reputation and the Cloud Service Providers' own assertion.</p>
+    </div>
+  </section>
+
+  <section id="solution">
+    <div class="left">
+      <h2>Solution !</h2>
+      <p>Meerkat is the solution to the lack of transparency in the cloud service industry. Here's how it works:</p>
+      <ul>
+        <li>
+          Anyone who visits this website will be <span style="font-weight: 700">testing the listed cloud servers.</span>
+          A maximum of 20 requests is sent
+          per
+          visit.
+        </li>
+        <li>
+          The test results are sent to the Meerkat blockchain, where it is <span style="font-weight: 700">immutable and
+            distributed.</span></li>
+      </ul>
+
+    </div>
+    <div class="right">
+      <img src="img/Solution.png" alt="Meerkat with logo next to it">
+    </div>
+  </section>
+
+  <section id="blocks-display">
+    <div class="description">
+      <h2>Live Meerkat Status</h2>
+      <p>These are all Cloud Service Providers' servers that Meerkat tests.</p>
+      <p>The test is considered successful if it returns 2xx HTTP status code.</p>
+      <p>It is updated in real-time.</p>
+    </div>
+    <div class="blocks">
+      <div class="block" id="AWS">
+        <img src="img/AWS.png" alt="AWS Logo">
+        <h4>Amazon Web Services</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="AlibabaCloud">
+        <img src="img/AlibabaCloud.png" alt="Alibaba Cloud Logo">
+        <h4>Alibaba Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Azure">
+        <img style="height: 8rem; margin: 1rem 0 1rem 0" src="img/Azure.png" alt="Azure Logo">
+        <h4>Microsoft Azure</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="CloudSigma">
+        <img src="img/CloudSigma.png" alt="CloudSigma Logo">
+        <h4>CloudSigma</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="DellCloud">
+        <img src="img/Dell.png" alt="Dell Cloud Logo">
+        <h4>Dell Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="DigitalOcean">
+        <img style="height: 8rem; margin: 1rem 0 1rem 0" src="img/DigitalOcean.png" alt="Digital Ocean Logo">
+        <h4>Digital Ocean</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="GoogleCloud">
+        <img src="img/GoogleCloud.png" alt="Google Cloud Logo">
+        <h4>Google Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="IBMCloud">
+        <img src="img/IBMCloud.png" alt="IBM Cloud Logo">
+        <h4>IBM Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Kamatera">
+        <img src="img/Kamatera.png" alt="Kamatera Logo">
+        <h4>Kamatera</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Limestone">
+        <img src="img/Limestone.png" alt="Limestone Networks Logo">
+        <h4>Limestone Networks</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="LiquidWeb">
+        <img src="img/LiquidWeb.png" alt="Liquid Web Logo">
+        <h4>Liquid Web</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="MassiveGRID">
+        <img src="img/MassiveGRID.png" alt="Massive GRID Logo">
+        <h4>Massive GRID</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="NaviSite">
+        <img src="img/Navisite.png" alt="Navisite Logo">
+        <h4>Navisite</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="OpenNebula">
+        <img style="height: 8rem; margin: 1rem 0 1rem 0" src="img/OpenNebula.png" alt="OpenNebula Logo">
+        <h4>OpenNebula</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Pivotal">
+        <img style="height: 6rem; margin: 2rem 0 2rem 0" src="img/Pivotal.png" alt="Pivotal Logo">
+        <h4>Pivotal</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Quadranet">
+        <img style="height: 4rem; margin: 3rem 0 3rem 0" src="img/Quadranet.png" alt="Quadranet Logo">
+        <h4>Quadranet</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Rackspace">
+        <img style="height: 6rem; margin: 2rem 0 2rem 0" src="img/Rackspace.png" alt="Rackspace Logo">
+        <h4>Rackspace</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Salesforce">
+        <img src="img/Salesforce.png" alt="Salesforce Logo">
+        <h4>Salesforce</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="VerizonCloud">
+        <img src="img/Verizon.png" alt="Verizon Cloud Logo">
+        <h4>Verizon Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+      <div class="block" id="Vmware">
+        <img src="img/Vmware.png" alt="VMware Cloud Logo">
+        <h4>VMware Cloud</h4>
+        <div class="test-results">
+          <h5>Test Results: </h5>
+          <p class="test-result">69/69</p>
+        </div>
+        <div class="test-percents">
+          <h5>Uptime percent: </h5>
+          <p class="test-percent">100%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <footer>
+      <p>&copy;Cliff Zhang</p>
+      <p>Project for Hack The North 2019</p>
+    </footer>
+  </section>
+
+  <section id="waves">
+    <div id="wave0"></div>
+    <div id="wave1"></div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
