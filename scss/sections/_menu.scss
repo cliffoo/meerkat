@@ -1,17 +1,39 @@
 #menu{
   position: fixed;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 2rem 5rem;
   display: flex;
   width: 100%;
+  #problem, #solution, #blocks-display{
+    display: none;
+    border: #000 solid 0.1rem;
+  }
   a{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
-    margin-left: 10rem;
+    margin-left: 5rem;
     img{
       height: 8rem;
       margin-right: 1rem;
+    }
+    h5{
+      padding: 1rem;
+      border: #000 solid 0.2rem;
+      border-radius: 1rem;
+      &:hover{
+        @keyframes hover {
+          0%{
+            color: #000;
+            background-color: transparent;
+          }
+          100%{
+            color: #fff;
+            background-color: #ffd53d;
+          }
+        }
+        animation: hover 0.22s linear forwards;
+      }
     }
   }
 }
