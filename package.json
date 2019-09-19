@@ -12,7 +12,6 @@
     "@blockmason/link-sdk": "^0.1.4",
     "axios": "^0.19.0",
     "node-fetch": "^2.6.0",
-    "node-sass": "^4.12.0",
     "web3": "^1.2.1"
   }
 }
