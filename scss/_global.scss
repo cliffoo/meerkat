@@ -1,42 +1,53 @@
 h1 {
-  font-size: 14rem;
+  font-size: 10rem;
+  @include phone {
+    font-size: 8rem;
+  }
 }
 
 h2 {
-  font-size: 8rem;
+  font-size: 6rem;
+  @include phone {
+    font-size: 4rem;
+  }
 }
 
 h3 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2rem;
+  @include tablet {
+    font-size: 3rem;
+  }
 }
 
-p, li, h5{
+p,
+li,
+h5 {
   font-size: 2rem;
 }
 
-.white-background{
+.white-background {
   animation: white-background 0.35s ease-out forwards;
   @keyframes white-background {
-    0%{
+    0% {
       background-color: none;
     }
-    100%{
+    100% {
       background-color: #fff;
     }
   }
 }
 
-.transparent-background{
+.transparent-background {
   animation: transparent-background 0.35s ease-out forwards;
   @keyframes transparent-background {
-    0%{
+    0% {
       background-color: #fff;
     }
-    100%{
+    100% {
       background-color: none;
     }
   }

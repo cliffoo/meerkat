@@ -1,54 +1,91 @@
 #showcase {
   display: grid;
-  grid-template-columns: 4fr 5fr;
+  grid-template-columns: 1fr 1fr;
   background-color: rgba($color: #fff, $alpha: 0);
   height: 100vh;
   width: 100vw;
-  .left{
-    height: 100%;
+  @include tablet {
     display: flex;
     flex-direction: column;
-    padding: 19rem 0 0 18.5rem;
-    h3{
+  }
+  .left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0 10vw;
+    h3 {
       font-weight: 500;
     }
-    h1{
+    h4 {
       margin-top: 2rem;
-    }
-    h4{
-      margin-top: 5rem;
     }
     p {
       font-size: 3rem;
-      margin-top: 2rem;
+      @include tablet {
+        font-size: 2.5rem;
+      }
     }
-    .logos{
+    @include tablet {
+      margin-top: 15rem;
+      align-items: center;
+      padding: 0 10vw 0 10vw;
+      text-align: center;
+    }
+    @include phone {
+      margin-top: 10rem;
+    }
+    .logos {
+      display: flex;
+      flex-direction: column;
+      div {
         display: flex;
-        flex-direction: column;
-        div{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          align-self: flex-start;
-          margin-top: 4rem;
-          #ethereum-logo{
-            height: 5rem;
-          }
-          #infura-logo{
-            height: 6rem;
-            margin-left: 4rem;
-          }
+        flex-direction: row;
+        align-items: center;
+        align-self: flex-start;
+        margin-top: 4rem;
+        @include tablet {
+          align-self: center;
         }
-        #blockmason-logo{
-          margin-top: 4rem;
+        #ethereum-logo {
+          height: 5rem;
+        }
+        #infura-logo {
           height: 6rem;
-          align-self: flex-start;
+          margin-left: 4rem;
+          @include tablet {
+            margin-left: 2rem;
+            height: 4rem;
+          }
         }
+      }
+      #blockmason-logo {
+        margin-top: 4rem;
+        height: 6rem;
+        align-self: flex-start;
+        @include tablet {
+          align-self: center;
+          height: 4rem;
+          margin-top: 2rem;
+        }
+      }
     }
   }
-  .right{
-    img{
+  .right {
+    @include tablet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    img {
       height: 100vh;
+      @include tablet {
+        height: 66rem;
+      }
+      @include phone {
+        height: 30vh;
+      }
     }
   }
 }

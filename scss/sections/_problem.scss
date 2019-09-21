@@ -1,22 +1,40 @@
-#problem{
+#problem {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 15rem;
-  .left{
+  padding-top: 10rem;
+  @include tablet {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10rem;
+    flex-direction: column-reverse;
+    padding-top: 20rem;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    img{
-      height: 50rem;
+    img {
+      height: 35rem;
+      @include tablet {
+        height: 22rem;
+      }
     }
   }
-  .right{
+  .right {
     display: flex;
     flex-direction: column;
-    padding: 10rem 30rem 0 5rem;
-    p{
+    padding: 5rem 10rem 5rem 0;
+    p {
       margin-top: 1.5rem;
+    }
+    @include tablet-landscape {
+      padding: 5rem 8rem 5rem 0
+    }
+    @include tablet {
+      justify-content: center;
+      align-items: center;
+      padding: 0 9rem 2rem 9rem;
+    }
+    @include phone {
+      padding: 4rem 5rem 1rem 5rem;
     }
   }
 }

@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A decentralized blockchain application that tracks the uptime of cloud service providers, empowering consumers with facts when choosing cloud service providers.",
   "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/ --recursive"
-  },
+  "scripts": {},
   "author": "Cliff Zhang",
   "license": "ISC",
   "dependencies": {

@@ -3,10 +3,18 @@
   flex-direction: column;
   align-items: center;
   padding: 28rem 0 10rem 0;
+  @include tablet-landscape{
+    padding: 20rem 0 10rem 0;
+  }
+  @include tablet {
+    padding: 12rem 2rem 10rem 2rem;
+  }
   .description{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     h2{
       margin-bottom: 2rem;
     }
@@ -15,6 +23,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 20rem 0 20rem;
+    @include tablet-landscape{
+      grid-template-columns: 1fr 1fr;
+    }
+    @include phone {
+      grid-template-columns: 1fr;
+    }
     .block{
       display: grid;
       text-align: center;

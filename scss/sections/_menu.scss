@@ -3,16 +3,15 @@
   padding: 2rem 0 2rem 5rem;
   display: flex;
   width: 100%;
-  #problem, #solution, #blocks-display{
+  @include phone {
     display: none;
-    border: #000 solid 0.1rem;
   }
   a{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
-    margin-left: 5rem;
+    margin-left: 3rem;
     img{
       height: 8rem;
       margin-right: 1rem;
